@@ -24,6 +24,8 @@ type ClusterTriggerBindingExpansion interface{}
 
 type EventListenerExpansion interface{}
 
+type SyncRepoExpansion interface{}
+
 type TriggerExpansion interface{}
 
 type TriggerBindingExpansion interface{}

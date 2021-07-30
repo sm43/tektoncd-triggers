@@ -1,0 +1,11 @@
+---
+apiVersion: triggers.tekton.dev/v1alpha1
+kind: SyncRepo
+metadata:
+  name: test
+spec:
+  repo: https://github.com/tektoncd/hub
+  branch: main
+  frequency: 3m
+  binding: pipeline-binding
+  template: pipeline-template

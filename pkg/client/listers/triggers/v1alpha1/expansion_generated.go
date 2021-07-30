@@ -34,6 +34,14 @@ type EventListenerListerExpansion interface{}
 // EventListenerNamespaceLister.
 type EventListenerNamespaceListerExpansion interface{}
 
+// SyncRepoListerExpansion allows custom methods to be added to
+// SyncRepoLister.
+type SyncRepoListerExpansion interface{}
+
+// SyncRepoNamespaceListerExpansion allows custom methods to be added to
+// SyncRepoNamespaceLister.
+type SyncRepoNamespaceListerExpansion interface{}
+
 // TriggerListerExpansion allows custom methods to be added to
 // TriggerLister.
 type TriggerListerExpansion interface{}

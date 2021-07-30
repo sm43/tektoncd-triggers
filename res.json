@@ -1,0 +1,122 @@
+{
+  "sha": "ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d",
+  "node_id": "MDY6Q29tbWl0MjUyNDU3OTQyOmFlMjZmYjBjNWVhZDFjOTdmNzQ0ZmZlMmYxY2U0Mzc0ZmIzZGY0M2Q=",
+  "commit": {
+    "author": {
+      "name": "Piyush Garg",
+      "email": "piyushgarg001@gmail.com",
+      "date": "2021-07-27T07:34:36Z"
+    },
+    "committer": {
+      "name": "tekton-robot",
+      "email": "48335577+tekton-robot@users.noreply.github.com",
+      "date": "2021-07-27T12:17:08Z"
+    },
+    "message": "Replace maze.io/x/duration to git.maze.io/go/duration\n\nThis will replace maze.io/x/duration to git.maze.io/go/duration\nas it is failing sometimes because of redirection",
+    "tree": {
+      "sha": "a414cee51735a07fa31e2ffef3e8300e722444e9",
+      "url": "https://api.github.com/repos/tektoncd/hub/git/trees/a414cee51735a07fa31e2ffef3e8300e722444e9"
+    },
+    "url": "https://api.github.com/repos/tektoncd/hub/git/commits/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/tektoncd/hub/commits/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d",
+  "html_url": "https://github.com/tektoncd/hub/commit/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d",
+  "comments_url": "https://api.github.com/repos/tektoncd/hub/commits/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d/comments",
+  "author": {
+    "login": "piyush-garg",
+    "id": 19270240,
+    "node_id": "MDQ6VXNlcjE5MjcwMjQw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19270240?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/piyush-garg",
+    "html_url": "https://github.com/piyush-garg",
+    "followers_url": "https://api.github.com/users/piyush-garg/followers",
+    "following_url": "https://api.github.com/users/piyush-garg/following{/other_user}",
+    "gists_url": "https://api.github.com/users/piyush-garg/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/piyush-garg/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/piyush-garg/subscriptions",
+    "organizations_url": "https://api.github.com/users/piyush-garg/orgs",
+    "repos_url": "https://api.github.com/users/piyush-garg/repos",
+    "events_url": "https://api.github.com/users/piyush-garg/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/piyush-garg/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "tekton-robot",
+    "id": 48335577,
+    "node_id": "MDQ6VXNlcjQ4MzM1NTc3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/48335577?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/tekton-robot",
+    "html_url": "https://github.com/tekton-robot",
+    "followers_url": "https://api.github.com/users/tekton-robot/followers",
+    "following_url": "https://api.github.com/users/tekton-robot/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tekton-robot/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/tekton-robot/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/tekton-robot/subscriptions",
+    "organizations_url": "https://api.github.com/users/tekton-robot/orgs",
+    "repos_url": "https://api.github.com/users/tekton-robot/repos",
+    "events_url": "https://api.github.com/users/tekton-robot/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/tekton-robot/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "e5d63fc5e8e4dfaf4d31481ea22468262ccf53f2",
+      "url": "https://api.github.com/repos/tektoncd/hub/commits/e5d63fc5e8e4dfaf4d31481ea22468262ccf53f2",
+      "html_url": "https://github.com/tektoncd/hub/commit/e5d63fc5e8e4dfaf4d31481ea22468262ccf53f2"
+    }
+  ],
+  "stats": {
+    "total": 8,
+    "additions": 4,
+    "deletions": 4
+  },
+  "files": [
+    {
+      "sha": "61d7aefd2763e8d30522db33ab3c0f0261da13b4",
+      "filename": "api/go.mod",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/tektoncd/hub/blob/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d/api/go.mod",
+      "raw_url": "https://github.com/tektoncd/hub/raw/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d/api/go.mod",
+      "contents_url": "https://api.github.com/repos/tektoncd/hub/contents/api/go.mod?ref=ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d",
+      "patch": "@@ -3,6 +3,7 @@ module github.com/tektoncd/hub/api\n go 1.14\n \n require (\n+\tgit.maze.io/go/duration v0.0.0-20160924141736-faac084b6075\n \tgithub.com/AlecAivazis/survey/v2 v2.2.12\n \tgithub.com/Netflix/go-expect v0.0.0-20200312175327-da48e75238e2\n \tgithub.com/dgrijalva/jwt-go v3.2.0+incompatible\n@@ -35,5 +36,4 @@ require (\n \tk8s.io/apimachinery v0.19.7\n \tk8s.io/client-go v0.19.7\n \tknative.dev/pkg v0.0.0-20210331065221-952fdd90dbb0\n-\tmaze.io/x/duration v0.0.0-20160924141736-faac084b6075\n )"
+    },
+    {
+      "sha": "1a30f9d6281d4de1cfadef2fe1f39d074ae80efe",
+      "filename": "api/go.sum",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/tektoncd/hub/blob/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d/api/go.sum",
+      "raw_url": "https://github.com/tektoncd/hub/raw/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d/api/go.sum",
+      "contents_url": "https://api.github.com/repos/tektoncd/hub/contents/api/go.sum?ref=ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d",
+      "patch": "@@ -42,6 +42,8 @@ contrib.go.opencensus.io/exporter/stackdriver v0.13.5 h1:TNaexHK16gPUoc7uzELKOU7\n contrib.go.opencensus.io/exporter/stackdriver v0.13.5/go.mod h1:aXENhDJ1Y4lIg4EUaVTwzvYETVNZk10Pu26tevFKLUc=\n contrib.go.opencensus.io/exporter/zipkin v0.1.2/go.mod h1:mP5xM3rrgOjpn79MM8fZbj3gsxcuytSqtH0dxSWW1RE=\n dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=\n+git.maze.io/go/duration v0.0.0-20160924141736-faac084b6075 h1:jESjOpk7mUiOhCInw+wg7MHW4gl+LE2jfQHhWFMNK0E=\n+git.maze.io/go/duration v0.0.0-20160924141736-faac084b6075/go.mod h1:y9MVD7vG8A7scVb2MvTVxN0z+DHTzxnWgOisOnFe5kc=\n github.com/AlecAivazis/survey/v2 v2.2.12 h1:5a07y93zA6SZ09gOa9wLVLznF5zTJMQ+pJ3cZK4IuO8=\n github.com/AlecAivazis/survey/v2 v2.2.12/go.mod h1:6d4saEvBsfSHXeN1a5OA5m2+HJ2LuVokllnC77pAIKI=\n github.com/Azure/azure-sdk-for-go v43.0.0+incompatible h1:/wSNCu0e6EsHFR4Qa3vBEBbicaprEHMyyga9g8RTULI=\n@@ -1620,8 +1622,6 @@ k8s.io/utils v0.0.0-20210111153108-fddb29f9d009/go.mod h1:jPW/WVKK9YHAvNhRxK0md/\n knative.dev/hack v0.0.0-20210325223819-b6ab329907d3/go.mod h1:PHt8x8yX5Z9pPquBEfIj0X66f8iWkWfR0S/sarACJrI=\n knative.dev/pkg v0.0.0-20210331065221-952fdd90dbb0 h1:z05hcB4br0qz7JdwIoUSTXLTF+7ThuJ+R6NFfXd1Y4Q=\n knative.dev/pkg v0.0.0-20210331065221-952fdd90dbb0/go.mod h1:PD5g8hUCXq6iR3tILjmZeJBvQfXGnHMPKryq54qHJhg=\n-maze.io/x/duration v0.0.0-20160924141736-faac084b6075 h1:4zVed9rL46683x3koxOYLzh8FlLFjnRrzTo2uvgA5D4=\n-maze.io/x/duration v0.0.0-20160924141736-faac084b6075/go.mod h1:1kfR2ph3CIvtfIQ8D8JhmAgePmnAUnR+AWYWUBo+l08=\n pgregory.net/rapid v0.3.3/go.mod h1:UYpPVyjFHzYBGHIxLFoupi8vwk6rXNzRY9OMvVxFIOU=\n rsc.io/binaryregexp v0.2.0/go.mod h1:qTv7/COck+e2FymRvadv62gMdZztPaShugOCi3I+8D8=\n rsc.io/quote/v3 v3.1.0/go.mod h1:yEA65RcK8LyAZtP9Kv3t0HmxON59tX3rD+tICJqUlj0="
+    },
+    {
+      "sha": "89942175287ec0b4ddeed7cd95fb045ad2ced66e",
+      "filename": "api/pkg/app/app.go",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/tektoncd/hub/blob/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d/api/pkg/app/app.go",
+      "raw_url": "https://github.com/tektoncd/hub/raw/ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d/api/pkg/app/app.go",
+      "contents_url": "https://api.github.com/repos/tektoncd/hub/contents/api/pkg/app/app.go?ref=ae26fb0c5ead1c97f744ffe2f1ce4374fb3df43d",
+      "patch": "@@ -24,6 +24,7 @@ import (\n \t\"strings\"\n \t\"time\"\n \n+\t\"git.maze.io/go/duration\"\n \t\"github.com/joho/godotenv\"\n \t\"github.com/spf13/viper\"\n \t\"github.com/tektoncd/hub/api/gen/log\"\n@@ -32,7 +33,6 @@ import (\n \t\"golang.org/x/oauth2\"\n \t\"gorm.io/driver/postgres\"\n \t\"gorm.io/gorm\"\n-\t\"maze.io/x/duration\"\n )\n \n // BaseConfig defines methods on APIBase"
+    }
+  ]
+}

@@ -44,7 +44,7 @@ func ResolveParams(rt ResolvedTrigger, body []byte, header http.Header, extensio
 		ttParams = rt.TriggerTemplate.Spec.Params
 	}
 
-	out, err := applyEventValuesToParams(rt.BindingParams, body, header, extensions, ttParams)
+	out, err := ApplyEventValuesToParams(rt.BindingParams, body, header, extensions, ttParams)
 	if err != nil {
 		return nil, fmt.Errorf("failed to ApplyEventValuesToParams: %w", err)
 	}
@@ -93,9 +93,9 @@ func newEvent(body []byte, headers http.Header, extensions map[string]interface{
 	}, nil
 }
 
-// applyEventValuesToParams returns a slice of Params with the JSONPath variables replaced
+// ApplyEventValuesToParams returns a slice of Params with the JSONPath variables replaced
 // with values from the event body, headers, and extensions.
-func applyEventValuesToParams(params []triggersv1.Param, body []byte, header http.Header, extensions map[string]interface{},
+func ApplyEventValuesToParams(params []triggersv1.Param, body []byte, header http.Header, extensions map[string]interface{},
 	defaults []triggersv1.ParamSpec) ([]triggersv1.Param, error) {
 	event, err := newEvent(body, header, extensions)
 	if err != nil {

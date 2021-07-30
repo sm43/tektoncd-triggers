@@ -127,7 +127,7 @@ func TestApplyEventValuesMergeInDefaultParams(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := applyEventValuesToParams(tt.args.params, nil, nil, nil, tt.args.paramSpecs)
+			got, err := ApplyEventValuesToParams(tt.args.params, nil, nil, nil, tt.args.paramSpecs)
 			if err != nil {
 				t.Errorf("applyEventValuesToParams(): unexpected error: %s", err.Error())
 			}
@@ -300,7 +300,7 @@ func TestApplyEventValuesToParams(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := applyEventValuesToParams(tt.params, tt.body, tt.header, tt.extensions, nil)
+			got, err := ApplyEventValuesToParams(tt.params, tt.body, tt.header, tt.extensions, nil)
 			if err != nil {
 				t.Errorf("unexpected error: %v", err)
 			}
@@ -341,7 +341,7 @@ func TestApplyEventValuesToParams_Error(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := applyEventValuesToParams(tt.params, tt.body, tt.header, tt.extensions, nil)
+			got, err := ApplyEventValuesToParams(tt.params, tt.body, tt.header, tt.extensions, nil)
 			if err == nil {
 				t.Errorf("did not get expected error - got: %v", got)
 			}

@@ -30,6 +30,8 @@ type Interface interface {
 	ClusterTriggerBindings() ClusterTriggerBindingInformer
 	// EventListeners returns a EventListenerInformer.
 	EventListeners() EventListenerInformer
+	// SyncRepos returns a SyncRepoInformer.
+	SyncRepos() SyncRepoInformer
 	// Triggers returns a TriggerInformer.
 	Triggers() TriggerInformer
 	// TriggerBindings returns a TriggerBindingInformer.
@@ -62,6 +64,11 @@ func (v *version) ClusterTriggerBindings() ClusterTriggerBindingInformer {
 // EventListeners returns a EventListenerInformer.
 func (v *version) EventListeners() EventListenerInformer {
 	return &eventListenerInformer{factory: v.factory, namespace: v.namespace, tweakListOptions: v.tweakListOptions}
+}
+
+// SyncRepos returns a SyncRepoInformer.
+func (v *version) SyncRepos() SyncRepoInformer {
+	return &syncRepoInformer{factory: v.factory, namespace: v.namespace, tweakListOptions: v.tweakListOptions}
 }
 
 // Triggers returns a TriggerInformer.

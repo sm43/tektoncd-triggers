@@ -27,6 +27,7 @@ import (
 	"knative.dev/pkg/signals"
 
 	"github.com/tektoncd/triggers/pkg/reconciler/eventlistener"
+	"github.com/tektoncd/triggers/pkg/reconciler/syncrepo"
 )
 
 const (
@@ -73,5 +74,6 @@ func main() {
 		cfg,
 		eventlistener.NewController(c),
 		clusterinterceptor.NewController(),
+		syncrepo.NewController(),
 	)
 }

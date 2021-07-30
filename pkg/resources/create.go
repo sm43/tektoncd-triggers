@@ -35,8 +35,8 @@ import (
 	discoveryclient "k8s.io/client-go/discovery"
 )
 
-// findAPIResource returns the APIResource definition using the discovery client c.
-func findAPIResource(apiVersion, kind string, c discoveryclient.ServerResourcesInterface) (*metav1.APIResource, error) {
+// FindAPIResource returns the APIResource definition using the discovery client c.
+func FindAPIResource(apiVersion, kind string, c discoveryclient.ServerResourcesInterface) (*metav1.APIResource, error) {
 	resourceList, err := c.ServerResourcesForGroupVersion(apiVersion)
 	if err != nil {
 		return nil, fmt.Errorf("error getting kubernetes server resources for apiVersion %s: %s", apiVersion, err)
@@ -86,7 +86,7 @@ func Create(logger *zap.SugaredLogger, rt json.RawMessage, triggerName, eventID,
 	}
 
 	// Resolve resource kind to the underlying API Resource type.
-	apiResource, err := findAPIResource(data.GetAPIVersion(), data.GetKind(), c)
+	apiResource, err := FindAPIResource(data.GetAPIVersion(), data.GetKind(), c)
 	if err != nil {
 		return fmt.Errorf("couldn't find API resource for json: %v", err)
 	}
